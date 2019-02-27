@@ -1,7 +1,10 @@
 const express = require('express');
 const randomSucharGenerator = require('random-suchar-generator/randomSucharGenerator');
 const app = express();
+const cors = require('cors');
 const port = 3000;
+
+app.use(cors());
 
 app.get('/', async (req, res) => {
     return randomSucharGenerator().then(

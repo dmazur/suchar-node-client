@@ -9,6 +9,7 @@
   "author": "Dawid Mazur",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "random-suchar-generator": "0.0.2"
   }
